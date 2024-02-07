@@ -59,6 +59,9 @@ h1 {
 span {
     font-weight: 200;
 }
+img {
+  border-radius: 6px;
+}
 #comment {
     display: block;
     font-size: 11px;
@@ -305,6 +308,12 @@ span {
   .stripe-badge {
     color: var(--color-primary);
     border-bottom: 2px solid rgb(98, 91, 246);
+    font-weight: 500;
+    padding: 0px 2px;
+  }
+  .nextjs-badge {
+    color: var(--color-primary);
+    border-bottom: 2px solid rgb(21, 21, 21);
     font-weight: 500;
     padding: 0px 2px;
   }
